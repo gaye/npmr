@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+function main() {
+  console.log('Hi');
+}
+
+if (require.main === module) {
+  main();
+}

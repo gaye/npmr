@@ -1,0 +1,24 @@
+{
+  "name": "string",
+  "version": "0.0.1",
+  "main": "string",
+
+  "bin": {
+    "string": "./bin/string"
+  },
+
+
+  "dependencies": {
+    "camelcase": "file:./lib/camelcase",
+    "palindrome": "file:./lib/palindrome"
+  },
+
+  "devDependencies": {
+    "chai": "^2",
+    "mocha": "^2"
+  },
+
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}

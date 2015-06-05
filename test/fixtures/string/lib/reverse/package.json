@@ -1,0 +1,14 @@
+{
+  "name": "reverse",
+  "version": "0.0.1",
+  "main": "reverse",
+
+  "devDependencies": {
+    "chai": "^2",
+    "mocha": "^2"
+  },
+
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  }
+}

@@ -4,9 +4,6 @@ npmr
 npmr solves some deficiences in the implementation of local modules in
 npm 2. It aspires to be deprecated once similar functionality lands in npm.
 
-
-[![Build Status](https://travis-ci.org/gaye/npmr.png?branch=master)](https://travis-ci.org/gaye/npmr)
-
 ### Installation
 
 `npm install -g npmr`

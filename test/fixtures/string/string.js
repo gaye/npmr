@@ -1,3 +1,4 @@
+'use strict';
 var camelCase = require('camelcase');
 var palindrome = require('palindrome');
 

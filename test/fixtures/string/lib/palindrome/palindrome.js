@@ -1,3 +1,4 @@
+'use strict';
 var reverse = require('reverse');
 
 module.exports = function palindrome(string) {

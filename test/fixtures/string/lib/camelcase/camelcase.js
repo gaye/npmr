@@ -1,3 +1,4 @@
+'use strict';
 module.exports = function(string) {
   var parts = string.split('_');
   var result = parts[0];

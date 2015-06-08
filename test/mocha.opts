@@ -1,1 +1,3 @@
+--compilers babel:babel/register
+--timeout 10s
 --ui tdd

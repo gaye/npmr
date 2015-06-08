@@ -1,6 +1,6 @@
 {
   "name": "npmr",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Gareth Aye [:gaye] <gaye@mozilla.com>",
   "description": "reactive build and test tool for local npm modules",
 
@@ -30,7 +30,7 @@
   },
 
   "scripts": {
-    "install": "./node_modules/.bin/babel lib --out-dir build",
+    "prepublish": "./node_modules/.bin/babel lib --out-dir build",
     "test": "./node_modules/.bin/mocha"
   }
 }

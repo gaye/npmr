@@ -5,7 +5,6 @@ var exec = require('mz/child_process').exec;
 var expect = require('chai').expect;
 var path = require('path');
 var rimraf = denodeify(require('rimraf'));
-var unlink = require('mz/fs').unlink;
 var writeFile = require('mz/fs').writeFile;
 
 suite('install', function() {
@@ -42,7 +41,6 @@ palindrome@0.0.1 node_modules/palindrome
 
   test('calling install should update dirty dependencies', co.wrap(function *() {
     var filepath = `${__dirname}/fixtures/string/lib/reverse/tmp`;
-    yield unlink(filepath);
     yield writeFile(filepath, 'foo');
     var npmr = path.normalize(`${__dirname}/../bin/npmr`);
     result = yield exec(`${npmr} --production 1 install`, {
